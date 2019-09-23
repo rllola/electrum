@@ -36,3 +36,17 @@ contrib/build-wine/fresh_clone/
 contrib/build-linux/appimage/build/
 contrib/build-linux/appimage/.cache/
 contrib/android_debug.keystore
+
+# debian
+debian/.debhelper
+debian/electrum-nmc
+debian/python3-electrum-nmc
+debian/debhelper-build-stamp
+debian/electrum-nmc.debhelper.log
+debian/electrum-nmc.substvars
+debian/files
+debian/python3-electrum-nmc.debhelper.log
+debian/python3-electrum-nmc.postinst.debhelper
+debian/python3-electrum-nmc.prerm.debhelper
+debian/python3-electrum-nmc.substvars
+.pybuild

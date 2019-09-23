@@ -11,15 +11,10 @@ DEB_COPYRIGHT_CHECK_IGNORE_REGEX = ^(locale/.*/.*\.mo|data/dark/.*\.png|icons/.*
 override_dh_installchangelogs::
 	dh_installchangelogs -k RELEASE-NOTES
 
-override_dh_auto_build::
-	pyrcc5 icons.qrc -o electrum_nmc/electrum/gui/icons_rc.py
-	dh_auto_build
-
 override_dh_auto_install::
-	mkdir -p debian/python3-electrum/usr/share
+	mkdir -p debian/python3-electrum-nmc/usr/share
 	dh_auto_install
-	mkdir -p debian/electrum/usr/bin debian/electrum/usr/share
-	mv debian/python3-electrum/usr/bin debian/electrum/usr
-	mv debian/python3-electrum/usr/share/* \
-	   debian/electrum/usr/share
-	rm debian/python3-electrum/usr/lib/python3*/dist-packages/electrum/plugins/revealer/*.?tf
+	mkdir -p debian/electrum-nmc/usr/bin debian/electrum-nmc/usr/share
+	mv debian/python3-electrum-nmc/usr/bin debian/electrum-nmc/usr
+	mv debian/python3-electrum-nmc/usr/share/* \
+	   debian/electrum-nmc/usr/share
