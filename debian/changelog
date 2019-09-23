@@ -1,0 +1,6 @@
+electrum-nmc (3.3.4-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #120)
+  * First Debian package
+
+ -- Lola Rigaut-Luczak <me@lola.ninja>  Fri, 20 Sep 2019 16:21:40 +0200
