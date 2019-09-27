@@ -7,47 +7,51 @@ Copyright: 2011 Namecoin developers
 License: Expat
  Various authors are described in the AUTHORS file, including parts on which they worked and hold license.
 
- Files: electrum_nmc/electrum/*
- Copyright: 2011-2015 Thomas Voegtlin
- License: Expat
+Files: electrum_nmc/electrum/*
+Copyright: 2011-2015 Thomas Voegtlin
+License: Expat
 
- Files: packages/dns/*
- Copyright: 2001-2011 Nominum, Inc.
- License: ISC
+Files: electrum_nmc/electrum/auxpow.py
+Copyright: 2014 Electrum-Doge contributors
+License: GPLv3+
 
- Files: packages/ecdsa/*
- Copyright: 2010 Brian Warner
- License: Expat
+Files: packages/dns/*
+Copyright: 2001-2011 Nominum, Inc.
+License: ISC
 
- Files: packages/google/*
- Copyright: 2007-2009, 2012, Google Inc.
- License: BSD-3-clause~Google
+Files: packages/ecdsa/*
+Copyright: 2010 Brian Warner
+License: Expat
 
- Files: packages/jsonrpclib/*
- Copyright: 2009-2011, Josh Marshall <catchjosh@gmail.com>
-            Quentin Smith <quentin@mit.edu>
- License: Apache-2.0
+Files: packages/google/*
+Copyright: 2007-2009, 2012, Google Inc.
+License: BSD-3-clause~Google
 
- Files: packages/pyaes/*
- Copyright: 2014 Richard Moore
- License: Expat
+Files: packages/jsonrpclib/*
+Copyright: 2009-2011, Josh Marshall <catchjosh@gmail.com>
+          Quentin Smith <quentin@mit.edu>
+License: Apache-2.0
 
- Files: packages/qrcode/*
- Copyright: 2011, Lincoln Loop
- License: BSD-3-clause~qrcode
+Files: packages/pyaes/*
+Copyright: 2014 Richard Moore
+License: Expat
 
- Files: packages/chardet/*
- Copyright: 1998, 2001, 2005 Netscape Communications Corporation
- License: LGPL-2.1+
+Files: packages/qrcode/*
+Copyright: 2011, Lincoln Loop
+License: BSD-3-clause~qrcode
 
- Files: packages/six.py
- Copyright: 2010-2015, Benjamin Peterson
- License: Expat
+Files: packages/chardet/*
+Copyright: 1998, 2001, 2005 Netscape Communications Corporation
+License: LGPL-2.1+
 
- Files: packages/socks.py
- Copyright: 2006, Dan-Haim.
- License: BSD-3-clause~Dan
- Comment:
+Files: packages/six.py
+Copyright: 2010-2015, Benjamin Peterson
+License: Expat
+
+Files: packages/socks.py
+Copyright: 2006, Dan-Haim.
+License: BSD-3-clause~Dan
+Comment:
  Minor modifications made by Christopher Gilbert
  <http://motomastyle.com> for use in PyLoris.
  .
@@ -55,9 +59,9 @@ License: Expat
  <http://breakingcode.wordpress.com> mainly to merge bug fixes found
  on Sourceforge.
 
- Files: electrum_nmc/electrum/plugins/*
- Copyright: 2014, 2015, Thomas Voegtlin
- License: Expat
+Files: electrum_nmc/electrum/plugins/*
+Copyright: 2014, 2015, Thomas Voegtlin
+License: Expat
 
 Files: debian/*
 Copyright: 2019 Lola Rigaut-Luczak <me@lola.ninja>
