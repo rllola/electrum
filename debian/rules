@@ -12,9 +12,5 @@ override_dh_installchangelogs::
 	dh_installchangelogs -k RELEASE-NOTES
 
 override_dh_auto_install::
-	mkdir -p debian/python3-electrum-nmc/usr/share
 	dh_auto_install
-	mkdir -p debian/electrum-nmc/usr/bin debian/electrum-nmc/usr/share
-	mv debian/python3-electrum-nmc/usr/bin debian/electrum-nmc/usr
-	mv debian/python3-electrum-nmc/usr/share/* \
-	   debian/electrum-nmc/usr/share
+	rm debian/tmp/usr/lib/python3*/dist-packages/electrum_nmc/electrum/plugins/revealer/DejaVuSansMono-Bold.ttf
