@@ -29,6 +29,7 @@ Package: python3-electrum-nmc
 Architecture: all
 Section: python
 Depends: ${misc:Depends}, ${python3:Depends}
+Recommends: fonts-dejavu-core, libsecp256k1-0
 Description: Easy to use Namecoin client - Python module
  This package provides a lightweight Namecoin client which protects
  you from losing your namecoins or names in a backup mistake or computer

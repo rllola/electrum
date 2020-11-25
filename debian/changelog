@@ -2,5 +2,5 @@ electrum-nmc (3.3.8-0.1) UNRELEASED; urgency=low
 
   * Initial Release.
   * Based on Debian Cryptocoin Team electrum package 3.3.8-0.1.
-  
+
  -- Lola Rigaut-Luczak <me@lola.ninja>  Fri, 20 Sep 2019 16:21:40 +0200

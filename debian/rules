@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-export PYBUILD_NAME=electrum-nmc
-
 # Ignore graphics and .mo files in addition to the default debian files
 DEB_COPYRIGHT_CHECK_IGNORE_REGEX = ^(locale/.*/.*\.mo|data/dark/.*\.png|icons/.*\.png|LICENSE|debian/(changelog|copyright(|_hints|_newhints)|electrum.translations))$
 
@@ -13,4 +11,4 @@ override_dh_installchangelogs::
 
 override_dh_auto_install::
 	dh_auto_install
-	rm debian/tmp/usr/lib/python3*/dist-packages/electrum_nmc/electrum/plugins/revealer/DejaVuSansMono-Bold.ttf
+	rm debian/tmp/usr/lib/python3*/dist-packages/electrum/plugins/revealer/DejaVuSansMono-Bold.ttf
