@@ -3,9 +3,8 @@ Upstream-Name: electrum-nmc
 Source: https://github.com/namecoin/electrum-nmc
 
 Files: *
-Copyright:
-  2011 Electrum Team
-  2017 Namecoin developers
+Copyright: Electrum Team
+           Namecoin developers
 License: Expat
  Various authors are described in the AUTHORS file, including parts on which they worked and hold license.
 
